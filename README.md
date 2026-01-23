@@ -76,4 +76,90 @@ It demonstrates:
 
 ## Usage License
 
+
 This project is intended for educational use and practice purposes only.
+
+
+ ----
+
+ 
+ # Standalone App which runs only on desktop interface
+# Fernet Encryption & Decryption GUI (Python Tkinter)
+
+## Project Summary
+
+This project is a desktop-based encryption and decryption application developed using Python.
+It provides a graphical user interface (GUI) that allows users to securely convert readable text into encrypted form and then restore it back using symmetric key cryptography.
+
+The application is built with Tkinter for the interface and uses the Fernet algorithm from the Cryptography library for secure data handling.
+
+---
+
+## Author
+
+ Fatima Ansari
+
+---
+
+## Main Features
+
+* Desktop graphical user interface using Tkinter
+* Automatic generation of a symmetric encryption key
+* Encryption of user-entered plain text
+* Decryption of encrypted text using the same key
+* Alert messages for empty input or invalid data
+* Simple and beginner-friendly design
+
+---
+
+## How the Application Works
+
+1. A secure Fernet key is generated when the program starts.
+2. The user enters text into the input area.
+3. Clicking the "Encrypt" button converts the text into encrypted format.
+4. Clicking the "Decrypt" button restores encrypted text to its original form.
+5. Error messages are shown if the input is invalid or cannot be decrypted.
+
+---
+
+## Technologies Used
+
+* Python
+* Tkinter (GUI development)
+* Cryptography library (Fernet symmetric encryption)
+
+---
+
+## How to Run the Program
+
+1. Ensure Python is installed on your system.
+2. Install the required library using the command:
+   pip install cryptography
+3. Save the Python file (for example: fernet_gui.py).
+4. Run the program using:
+   python fernet_gui.py
+
+---
+
+## Purpose of the Project
+
+This project is created for educational purposes to help students understand:
+
+* Basic concepts of encryption and decryption
+* Symmetric key cryptography
+* GUI development using Tkinter
+* Secure handling of text data in Python
+
+---
+
+## Limitations
+
+* The encryption key is generated at runtime and not stored permanently.
+* Encrypted data cannot be decrypted after restarting the application.
+
+---
+
+## License
+
+This project is intended for academic and learning use only.
+
